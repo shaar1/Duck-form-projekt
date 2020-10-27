@@ -5,20 +5,18 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://github.com/shaar1/Duck-form-projekt.git">
     <title>Duck Form Projekt</title>
 </head>
 
 <body>
-
-    <div class="first-riktangel">
-        <form action="">
-
+<div class="container">
+    <div class="first-rectangle">
+        <form class="form-input" action="">
                 <label for="fullname">FULL NAME</label>
-                <input type="text" id="fullname" autofocus required placeholder="Your Name">
+                <input type="text" id="fullname" autofocus required>
 
-                <label for="email">EMAIL</label>
-                <input type="text" id="email" required placeholder="Your Email">
+                <label for="email" >EMAIL</label>
+                <input type="text" placeholder="Your email" id="email" required> 
 
                 <label for="messageregarding">MESSAGE REGARDING</label>
                 <textarea name="messageregarding" id="messageregarding" cols="20" rows="2"></textarea>
@@ -27,10 +25,18 @@
                 <textarea name="message" id="message" cols="20" rows="2" placeholder="Your Message"></textarea>
 
                 <label for="sendmessge">
-                    <input class="submit" type="submit">
+                    <button class="submit" type="submit"> send message </button>
                 </label>
         </form>
     </div>
+
+    <div class="orange-rectangle">
+
+    </div>
+    </div>
+        <img class="duck-image" src="image/duck.png" alt="">
+
+
 
 
 

@@ -1,18 +1,31 @@
-input,
-label,
-textarea {
+body{
+    font-family: Roboto;
+}
+
+textarea,input{
+    background: none;
+    margin-left: 20px;
+    border: none;
+    border-bottom: 1px solid #9DBEBB;
     display: flex;
     margin: 10px 0px;
 }
 
-.first-riktangel {
+textarea::placeholder, input::placeholder {
+    color: white;
+}
 
-    width: 954px;
+.first-rectangle {
+    width: 609px;
     height: 594px;
     left: 243px;
     top: 153px;
     background: #BE0909;
     box-shadow: 0px 0px 32px rgba(0, 0, 0, 0.25);
+}
+
+label {
+    color: white;
 }
 
 .submit {
@@ -27,4 +40,26 @@ textarea {
     background: #468189;
     box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.5);
     border-radius: 40px;
+    font-size: 18px;
+    margin-top: 56px;
+}
+
+.duck-image {
+    position: absolute;
+    top: 30px;
+    left: 293px;
+}
+
+.container {
+    display: flex;
+}
+
+.orange-rectangle {
+    width: 345px;
+    background: #FFB039;
+}
+
+.form-input {
+    margin-left: 100px;
+    margin-top: 100px;
 }
